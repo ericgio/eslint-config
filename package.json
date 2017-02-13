@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericgio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,10 @@
     "url": "https://github.com/ericgio/eslint-config/issues"
   },
   "peerDependencies": {
-    "eslint": ">=3.8.1",
+    "eslint": ">=3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
     "eslint-plugin-react": "^6.9.0"
   }
 }
