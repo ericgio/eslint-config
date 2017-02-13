@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-ericgio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
