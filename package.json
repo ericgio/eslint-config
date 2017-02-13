@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-ericgio",
+  "version": "1.0.0",
+  "description": "Shareable ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericgio/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "author": "ericgio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericgio/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.8.1",
+    "eslint-plugin-react": "^6.9.0",
+  },
+  "homepage": "https://github.com/ericgio/eslint-config#readme"
+}
