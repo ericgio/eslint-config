@@ -58,6 +58,7 @@ module.exports = {
       before: false,
       after: true,
     }],
+    'space-before-blocks': 'error',
     'space-before-function-paren': ['error', 'never'],
     'space-in-parens': ['error', 'never'],
     'yoda': ['error', 'never'],
