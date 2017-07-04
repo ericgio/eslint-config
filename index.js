@@ -5,12 +5,16 @@ module.exports = {
     es6: true
   },
   extends: 'eslint:recommended',
-  ecmaFeatures: {
-    jsx: true,
-  },
   globals: {},
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    },
+  },
   plugins: [
-    'react'
+    'react',
   ],
   rules: {
     'array-bracket-spacing': ['error', 'never'],
