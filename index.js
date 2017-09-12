@@ -43,7 +43,7 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'no-undef': 'error',
     'no-unreachable': 'error',
-    'no-unused-vars': ['error', {args: 'none'}],
+    'no-unused-vars': ['error', {args: 'none', 'ignoreRestSiblings': true}],
     'object-curly-spacing': ['error', 'never'],
     'quotes': ['error', 'single', 'avoid-escape'],
     'react/jsx-uses-react': 'error',
