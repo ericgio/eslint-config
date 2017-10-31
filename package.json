@@ -27,5 +27,8 @@
   "devDependencies": {
     "eslint": "^4.1.1",
     "eslint-plugin-react": "^7.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
   }
 }
