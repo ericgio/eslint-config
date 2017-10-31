@@ -18,7 +18,7 @@ module.exports = {
   ],
   rules: {
     'array-bracket-spacing': ['error', 'never'],
-    'arrow-parens': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'always'],
     'comma-spacing': ['error', {
       before: false,
       after: true,
