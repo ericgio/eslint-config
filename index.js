@@ -50,9 +50,6 @@ module.exports = {
     'no-unused-vars': [ERROR, {args: 'none', 'ignoreRestSiblings': true}],
     'object-curly-spacing': [ERROR, 'never'],
     'quotes': [ERROR, 'single', 'avoid-escape'],
-    'react/jsx-uses-react': ERROR,
-    'react/jsx-uses-vars': ERROR,
-    'react/react-in-jsx-scope': ERROR,
     'react/jsx-closing-bracket-location': [ERROR, {
       'nonEmpty': 'after-props',
       'selfClosing': 'tag-aligned',
@@ -60,7 +57,15 @@ module.exports = {
     'react/jsx-no-undef': ERROR,
     'react/jsx-key': WARN,
     'react/jsx-sort-props': [ERROR, {ignoreCase: true}],
+    'react/jsx-tag-spacing': [ERROR, {
+      'afterOpening': 'never',
+      'beforeSelfClosing': 'always',
+      'closingSlash': 'never',
+    }],
+    'react/jsx-uses-react': ERROR,
+    'react/jsx-uses-vars': ERROR,
     'react/no-direct-mutation-state': ERROR,
+    'react/react-in-jsx-scope': ERROR,
     'semi': [ERROR, 'always'],
     'semi-spacing': [ERROR, {
       before: false,
