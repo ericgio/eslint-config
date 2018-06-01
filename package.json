@@ -21,11 +21,13 @@
   "bugs": {
     "url": "https://github.com/ericgio/eslint-config/issues"
   },
+  "dependencies": {
+    "eslint-plugin-react": "^7.8.2"
+  },
   "peerDependencies": {
     "eslint": ">=4.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.1.1",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint": "^4.1.1"
   }
 }
