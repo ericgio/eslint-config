@@ -74,6 +74,7 @@ module.exports = {
     'space-before-blocks': ERROR,
     'space-before-function-paren': [ERROR, 'never'],
     'space-in-parens': [ERROR, 'never'],
+    'space-infix-ops': ERROR,
     'yoda': [ERROR, 'never'],
   },
 };
