@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-ericgio",
-  "version": "3.0.0",
+  "name": "eslint-config-ericgio-base",
+  "version": "1.0.0",
   "description": "Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
@@ -22,12 +22,13 @@
     "url": "https://github.com/ericgio/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-plugin-react": "^7.8.2"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   },
   "peerDependencies": {
-    "eslint": ">=4.0.0"
+    "eslint": ">=5.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.1.1"
+    "eslint": "^5.15.1"
   }
 }
