@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ericgio",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Shareable ESLint Config",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,8 @@
     "eslint-plugin-react": "^7.12.4"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0"
+    "eslint": ">=5.0.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "devDependencies": {
     "eslint": "^5.15.1"
