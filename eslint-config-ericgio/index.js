@@ -1,8 +1,9 @@
-const baseRules = require('../rules/base');
-const importRules = require('../rules/import');
-const reactRules = require('../rules/react');
+const reactRules = require('./rules/react');
 
 module.exports = {
-  extends: ['airbnb'],
-  rules: Object.assign({}, baseRules, importRules, reactRules),
+  extends: [
+    'eslint-config-airbnb',
+    'eslint-config-ericgio-base',
+  ].map(require.resolve),
+  rules: Object.assign({}, reactRules),
 };
