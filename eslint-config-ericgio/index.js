@@ -5,5 +5,5 @@ module.exports = {
     'eslint-config-airbnb',
     'eslint-config-ericgio-base',
   ].map(require.resolve),
-  rules: Object.assign({}, reactRules),
+  rules: { ...reactRules },
 };

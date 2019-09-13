@@ -22,16 +22,17 @@
     "url": "https://github.com/ericgio/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-ericgio-base": "^1.0.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-ericgio-base": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint": "^5.16.0 || ^6.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.15.1"
+    "eslint": "^6.3.0"
   }
 }

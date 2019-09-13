@@ -27,6 +27,13 @@ module.exports = {
   }],
 
   /**
+   * Enforce shorthand or standard form for React fragments
+   *
+   * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+   */
+  'react/jsx-fragments': ['error', 'element'],
+
+  /**
    * One JSX element per line.
    *
    * This option limits every line in JSX to one expression each.
@@ -34,6 +41,17 @@ module.exports = {
    * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
    */
   'react/jsx-one-expression-per-line': 'off',
+
+  /**
+   * Disallow JSX props spreading.
+   *
+   * Enforces that there is no spreading for any JSX attribute. This enhances
+   * readability of code by being more explicit about what props are received by
+   * the component. It is also good for maintainability by avoiding passing
+   * unintentional extra props and allowing react to emit warnings when invalid
+   * HTML props are passed to HTML elements.
+   */
+  'react/jsx-props-no-spreading': 'off',
 
   /**
    * Prevent missing parentheses around multiline JSX.
@@ -112,4 +130,20 @@ module.exports = {
       'everything-else',
     ],
   }],
+
+  /**
+   * Enforce state initialization style.
+   *
+   * This rule will enforce the state initialization style to be either in a
+   * constructor or with a class property.
+   *
+   * `always` (default)
+   *    Enforces state initialization style to be in a constructor.
+   *
+   * `never`
+   *    Enforces state initialization style to be with a class property.
+   *
+   * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
+   */
+  'react/state-in-constructor': ['error', 'never'],
 };
