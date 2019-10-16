@@ -122,6 +122,7 @@ module.exports = {
    */
   'react/sort-comp': ['error', {
     order: [
+      'static-variables',
       'static-methods',
       'state',
       'instance-variables',
