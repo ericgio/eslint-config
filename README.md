@@ -2,10 +2,10 @@
 
 Personal set of eslint rules that extend AirBnB's widely-used config.
 
-## eslint-config-ericgio
+## Base
 
-General set of rules, including React & JSX.
+Basic set of eslint rules.
 
-## eslint-config-ericgio-base
+## React
 
-Basic set of rules, without those for React & JSX.
+Additional React & JSX rules.

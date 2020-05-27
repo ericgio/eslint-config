@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-ericgio",
-  "version": "5.0.1",
-  "description": "Shareable ESLint Config",
+  "name": "@ericgio/eslint-config-react",
+  "version": "6.0.0",
+  "description": "Shareable ESLint config for React.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -22,17 +22,17 @@
     "url": "https://github.com/ericgio/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-ericgio-base": "^2.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "@ericgio/eslint-config": "^3.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.1.0"
+    "eslint": ">=^6.0"
   },
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.0.0"
   }
 }
