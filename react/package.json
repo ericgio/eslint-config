@@ -1,6 +1,6 @@
 {
   "name": "@ericgio/eslint-config-react",
-  "version": "6.0.1",
+  "version": "6.1.0",
   "description": "Shareable ESLint config for React.",
   "main": "index.js",
   "scripts": {
